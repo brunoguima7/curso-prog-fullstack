@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Encontre no google</h1>
+    <form action="https://www.google.com/search">
+        <label for="b">O que deseja pesquisar?</label><br>
+        <input type="text" id="b" name="q" placeholder="nasa, spacex">
+        <input type="submit" value="Procurar">
+    </form>
+    <hr>
+    <h1>Cadastre-se já, ou faça seu <a>Login</a></h1>
+    <form>
+        Primeiro Nome <input type="text" name="fname"><br>
+        Ultimo Nome <input type="text" name="lname"><br>
+        Qual sua idade? <input type="number" name="idade" min=1 max=100><br>
+        Informe seu e-mail <input type="email" name="email"><br>
+        Senha: <input type="password" name="pass"><br>
+        Informe novamente sua senha: <input type="password" name="pass"><br>
+        <p>Sexo:</p>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        <br>
+        <input type="submit" value="Finalizar Cadastro">
+    </form>
+    <p><h3>Ou faça Login com:</h3></p>
+    <form>
+        <input list="redes"><br>
+        <datalist id="redes">
+            <option value="google"> 
+            <option value="facebook"> 
+            <option value="microsoft"> 
+            <option value="sony">
+        </datalist>
+        E-mail: <input type="email" name="email2"><br>
+        Senha: <input type="password" name="passr"><br>
+    </form>
+
+    
+</body>
+</html>

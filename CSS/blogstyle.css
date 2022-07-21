@@ -1,0 +1,20 @@
+.title{ 
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    margin: 1% auto 1% auto;
+    background-color: #fffafa;
+}
+.date{
+    font-family: 'Roboto', sans-serif;
+    color: #29c7c7;
+    width: 70%;
+    margin: 1% auto 1% auto;
+    background-color: #fffafa;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    width: 70%;
+    margin: 1% auto 1% auto;
+    background-color: #fffafa;
+}
+

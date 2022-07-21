@@ -1,0 +1,16 @@
+.title {
+    color: purple;
+    border: 2px dashed lime
+}
+table {
+    color: blue;
+}
+body {
+    background-color: aqua;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0,01;
+}
+#title2 {
+    color: palevioletred;
+}
